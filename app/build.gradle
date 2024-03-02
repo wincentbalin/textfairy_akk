@@ -159,7 +159,7 @@ dependencies {
     implementation "androidx.fragment:fragment-ktx:1.2.5"
     debugImplementation "com.squareup.leakcanary:leakcanary-android:${versions.leak_canary}"
     releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:${versions.leak_canary}"
-    implementation 'com.viewpagerindicator:library:2.4.1@aar'
+    implementation 'com.mcxiaoke.viewpagerindicator:library:2.4.1@aar'
     implementation "com.commit451:PhotoView:${versions.photoview}"
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
     implementation 'de.greenrobot:eventbus:2.4.0'
