@@ -23,7 +23,7 @@
     <string name="tesseract_ocr_summary">Tesseract es posiblemente la más precisa ingeniería de reconocimiento de texto de software libre. -Tesseract is probably the most accurate open source OCR engine available.</string>
     <string name="contact_welcome_text">Hola, mi nombre es Renard. Cree Text Fairy en mi tiempo libre. Espero que te resulte útil.</string>
     <string name="download_failed">Descarga de %1$s fallida!</string>
-    <string name="app_name">Text Fairy</string>
+    <string name="app_name">Text Fairy Akkadian</string>
     <string name="tips">Consejos</string>
     <string name="ocr_language_delete">Eliminar</string>
     <string name="ocr_language_title">Administrar idiomas</string>

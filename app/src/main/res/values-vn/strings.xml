@@ -36,7 +36,7 @@
     <string name="contact_welcome_text">"Xin chào, tên tôi là Renard. Tôi đã tạo ra văn bản Fairy trong thời gian rảnh rỗi. Tôi hy vọng cô ấy là hữu ích cho bạn.
     "</string>
     <string name="download_failed">"Đang tải %1$s không thành công!"</string>
-    <string name="app_name">"Văn bản Fairy"</string>
+    <string name="app_name">"Văn bản Fairy Akkadian"</string>
     <string name="tips">"Lời khuyên"</string>
     <string name="ocr_language_delete">"Xóa bỏ"</string>
     <string name="ocr_language_title">"Quản lý các Ngôn ngữ"</string>
