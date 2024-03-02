@@ -71,6 +71,7 @@ object OcrLanguageDataStore {
 
 val OCR_LANGUAGES = mapOf(
         "afr" to "Afrikaans",
+        "akk" to "Akkadian",
         "amh" to "Amharic",
         "ara" to "Arabic",
         "asm" to "Assamese",

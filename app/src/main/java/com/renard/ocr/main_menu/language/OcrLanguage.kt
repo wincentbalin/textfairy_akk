@@ -31,10 +31,16 @@ data class OcrLanguage(
 
     fun installLanguage(context: Context) {
         val dm = context.getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
-        val uri = if (value == "sat") {
-            Uri.parse("https://github.com/indic-ocr/tessdata/raw/master/sat/sat.traineddata")
-        } else {
-            Uri.parse("https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0/$value.traineddata")
+        val uri = when (value) {
+            "sat" -> {
+                Uri.parse("https://github.com/indic-ocr/tessdata/raw/master/sat/sat.traineddata")
+            }
+            "akk" -> {
+                Uri.parse("https://github.com/tesseract-ocr/tessdata_contrib/raw/main/akk/fast/akk.traineddata")
+            }
+            else -> {
+                Uri.parse("https://github.com/tesseract-ocr/tessdata_fast/raw/4.0.0/$value.traineddata")
+            }
         }
         val request = DownloadManager.Request(uri)
         setTrainedDataDestinationForDownload(context, request, uri.lastPathSegment!!)
