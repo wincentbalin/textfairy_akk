@@ -82,7 +82,7 @@
                 android:name=".documents.viewing.grid.DocumentGridActivity"
                 android:hardwareAccelerated="false"
                 android:launchMode="singleTop"
-        >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
@@ -113,7 +113,8 @@
 
         </activity>
 
-        <receiver android:name=".main_menu.language.DownloadBroadCastReceiver">
+        <receiver android:name=".main_menu.language.DownloadBroadCastReceiver"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_COMPLETE"/>
             </intent-filter>
