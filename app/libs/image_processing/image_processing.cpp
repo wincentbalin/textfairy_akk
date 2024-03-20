@@ -219,7 +219,7 @@ extern "C" {
 
     }
 
-    jobject Java_com_renard_ocr_cropimage_image_1processing_Blur_nativeBlurDetect(JNIEnv *env, jobject thiz, jlong nativePix) {
+    jobject Java_com_renard_ocr_1akk_cropimage_image_1processing_Blur_nativeBlurDetect(JNIEnv *env, jobject thiz, jlong nativePix) {
         Pix *pixOrg = (PIX *) nativePix;
         PixBlurDetect blurDetector(false);
         l_float32 blurValue;
@@ -230,7 +230,7 @@ extern "C" {
         boxGetGeometry(maxBlurLoc,&x,&y,&w,&h);
         //pixRenderBox(pixBlended,maxBlurLoc,2,L_SET_PIXELS);
         //create result
-        jclass cls = env->FindClass("com/renard/ocr/cropimage/image_processing/BlurDetectionResult");
+        jclass cls = env->FindClass("com/renard/ocr_akk/cropimage/image_processing/BlurDetectionResult");
         jmethodID constructor = env->GetMethodID(cls, "<init>", "(JDJ)V");
         return env->NewObject(cls, constructor, (jlong)pixBlended, (jdouble)blurValue, (jlong)maxBlurLoc);
     }

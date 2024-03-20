@@ -41,7 +41,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.renard.ocr"
+        applicationId "com.renard.ocr_akk"
         minSdkVersion 17
         targetSdkVersion 30
         versionCode 82

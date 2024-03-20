@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.renard.ocr"
+          package="com.renard.ocr_akk"
           android:installLocation="auto">
 
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -28,7 +28,7 @@
         </provider>
         <provider
                 android:name=".documents.viewing.DocumentContentProvider"
-                android:authorities="com.renard.ocr"
+                android:authorities="com.renard.ocr_akk"
                 android:exported="false"/>
 
 
@@ -121,16 +121,16 @@
         </receiver>
 
         <activity
-                android:name="com.renard.ocr.main_menu.ContactActivity">
+                android:name="com.renard.ocr_akk.main_menu.ContactActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.renard.ocr.main_menu.AboutActivity"/>
+                    android:value="com.renard.ocr_akk.main_menu.AboutActivity"/>
         </activity>
         <activity
-                android:name="com.renard.ocr.main_menu.LicenseActivity">
+                android:name="com.renard.ocr_akk.main_menu.LicenseActivity">
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
-                    android:value="com.renard.ocr.main_menu.AboutActivity"/>
+                    android:value="com.renard.ocr_akk.main_menu.AboutActivity"/>
         </activity>
         <activity
                 android:name=".main_menu.FeedbackActivity"
@@ -140,21 +140,21 @@
                     android:value=".documents.viewing.grid.DocumentGridActivity"/>
         </activity>
         <activity
-                android:name="com.renard.ocr.main_menu.BetaTestActivity"
+                android:name="com.renard.ocr_akk.main_menu.BetaTestActivity"
         >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".main_menu.FeedbackActivity"/>
         </activity>
         <activity
-                android:name="com.renard.ocr.main_menu.AboutActivity"
+                android:name="com.renard.ocr_akk.main_menu.AboutActivity"
         >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value=".documents.viewing.grid.DocumentGridActivity"/>
         </activity>
         <activity
-                android:name="com.renard.ocr.main_menu.PrivacyPolicyActivity"
+                android:name="com.renard.ocr_akk.main_menu.PrivacyPolicyActivity"
         >
             <meta-data
                     android:name="android.support.PARENT_ACTIVITY"

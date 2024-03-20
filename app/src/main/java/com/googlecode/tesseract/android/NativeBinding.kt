@@ -3,7 +3,7 @@ package com.googlecode.tesseract.android
 import androidx.annotation.StringRes
 import android.util.Log
 import com.googlecode.leptonica.android.Pix
-import com.renard.ocr.R
+import com.renard.ocr_akk.R
 import java.io.Closeable
 
 class NativeBinding : Closeable{

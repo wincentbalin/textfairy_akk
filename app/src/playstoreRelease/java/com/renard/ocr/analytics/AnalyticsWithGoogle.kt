@@ -1,4 +1,4 @@
-package com.renard.ocr.analytics
+package com.renard.ocr_akk.analytics
 
 import android.content.Context
 import android.content.SharedPreferences
@@ -8,9 +8,9 @@ import com.google.firebase.analytics.FirebaseAnalytics
 import com.google.firebase.analytics.FirebaseAnalytics.Event.SCREEN_VIEW
 import com.google.firebase.analytics.FirebaseAnalytics.Param.SCREEN_NAME
 import com.google.firebase.analytics.ktx.logEvent
-import com.renard.ocr.cropimage.image_processing.BlurDetectionResult
-import com.renard.ocr.documents.creation.ocr.LayoutQuestionDialog.LayoutKind
-import com.renard.ocr.main_menu.language.OcrLanguage
+import com.renard.ocr_akk.cropimage.image_processing.BlurDetectionResult
+import com.renard.ocr_akk.documents.creation.ocr.LayoutQuestionDialog.LayoutKind
+import com.renard.ocr_akk.main_menu.language.OcrLanguage
 
 /**
  * @author renard

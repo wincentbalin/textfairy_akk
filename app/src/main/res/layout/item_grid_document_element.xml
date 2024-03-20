@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.renard.ocr.documents.viewing.grid.CheckableGridElement xmlns:android="http://schemas.android.com/apk/res/android"
+<com.renard.ocr_akk.documents.viewing.grid.CheckableGridElement xmlns:android="http://schemas.android.com/apk/res/android"
                                                             android:layout_width="wrap_content"
                                                             android:layout_height="wrap_content"
                                                             android:layout_gravity="center" >
@@ -50,4 +50,4 @@
             android:maxLines="1" />
         </RelativeLayout>
 
-</com.renard.ocr.documents.viewing.grid.CheckableGridElement>
+</com.renard.ocr_akk.documents.viewing.grid.CheckableGridElement>

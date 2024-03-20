@@ -1,4 +1,4 @@
-package com.renard.ocr.analytics
+package com.renard.ocr_akk.analytics
 
 import android.content.Context
 import com.google.firebase.crashlytics.FirebaseCrashlytics

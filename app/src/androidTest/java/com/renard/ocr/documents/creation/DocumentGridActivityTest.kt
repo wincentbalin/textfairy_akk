@@ -1,4 +1,4 @@
-package com.renard.ocr.documents.creation
+package com.renard.ocr_akk.documents.creation
 
 import android.app.Activity
 import android.app.Instrumentation
@@ -23,11 +23,11 @@ import androidx.test.ext.junit.rules.ActivityScenarioRule
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.filters.LargeTest
 import androidx.test.platform.app.InstrumentationRegistry
-import com.renard.ocr.R
-import com.renard.ocr.TextFairyApplication
-import com.renard.ocr.documents.viewing.grid.DocumentGridActivity
-import com.renard.ocr.test.R.raw.*
-import com.renard.ocr.util.PreferencesUtils
+import com.renard.ocr_akk.R
+import com.renard.ocr_akk.TextFairyApplication
+import com.renard.ocr_akk.documents.viewing.grid.DocumentGridActivity
+import com.renard.ocr_akk.test.R.raw.*
+import com.renard.ocr_akk.util.PreferencesUtils
 import org.junit.After
 import org.junit.Before
 import org.junit.Rule

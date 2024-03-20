@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"/>
 
-    <com.renard.ocr.documents.creation.ocr.OCRImageView
+    <com.renard.ocr_akk.documents.creation.ocr.OCRImageView
         android:visibility="gone"
         android:id="@+id/progress_image"
         android:layout_width="match_parent"

@@ -1,6 +1,6 @@
-package com.renard.ocr.documents.creation.crop;
+package com.renard.ocr_akk.documents.creation.crop;
 
-import com.renard.ocr.BuildConfig;
+import com.renard.ocr_akk.BuildConfig;
 
 import junit.framework.Assert;
 
@@ -19,12 +19,12 @@ import android.graphics.RectF;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.renard.ocr.documents.creation.crop.HighLightView.GROW_BOTTOM_EDGE;
-import static com.renard.ocr.documents.creation.crop.HighLightView.GROW_LEFT_EDGE;
-import static com.renard.ocr.documents.creation.crop.HighLightView.GROW_NONE;
-import static com.renard.ocr.documents.creation.crop.HighLightView.GROW_RIGHT_EDGE;
-import static com.renard.ocr.documents.creation.crop.HighLightView.GROW_TOP_EDGE;
-import static com.renard.ocr.documents.creation.crop.HighLightView.MOVE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.GROW_BOTTOM_EDGE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.GROW_LEFT_EDGE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.GROW_NONE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.GROW_RIGHT_EDGE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.GROW_TOP_EDGE;
+import static com.renard.ocr_akk.documents.creation.crop.HighLightView.MOVE;
 
 /**
  * Created by renard.

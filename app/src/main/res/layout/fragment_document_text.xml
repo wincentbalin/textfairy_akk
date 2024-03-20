@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-        <com.renard.ocr.documents.viewing.single.tts.TextToSpeechControls
+        <com.renard.ocr_akk.documents.viewing.single.tts.TextToSpeechControls
                 android:id="@+id/text_to_speech_controls"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>

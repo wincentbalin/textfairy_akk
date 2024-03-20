@@ -21,7 +21,7 @@
                     android:layout_height="match_parent">
 
 
-        <com.renard.ocr.documents.creation.crop.CropImageView
+        <com.renard.ocr_akk.documents.creation.crop.CropImageView
                 android:layout_marginLeft="@dimen/crop_margin"
                 android:layout_marginRight="@dimen/crop_margin"
                 android:layout_above="@+id/toolbar_bottom"
